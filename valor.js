@@ -7,9 +7,10 @@
 //apresente o R$ total de desconto
 //apresente o valor total da venda depois do desconto
 
-var nomeDoProduto  = parseFloat (prompt("Digite o nome do produto:") );
+var nomeDoProduto  = prompt("Digite o nome do produto:") ;
 var quantidadeVendida = parseInt (prompt("Digite a quantidade vendida: ") );
-var valorDoProduto = parseInt (prompt("Digite o valor do produto: ") );
-var valorTotal = quantidadeVendida * valorDoProduto
-var desconto
-var totalDoDesconto
+var valorDoProduto = parsefloat(prompt("Digite o valor do produto: ") );
+var valorTotal = quantidadeVendida * valorDoProduto;
+console.log ("O valor total é: " + " R$ " + valorTotal);
+ 
+
